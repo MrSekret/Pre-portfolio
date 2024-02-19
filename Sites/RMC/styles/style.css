@@ -18,11 +18,11 @@ br{
 }
 @font-face {
     font-family: Larken-Medium;
-    src: url(/RMCREFACTORING/fonts/LarkenDEMO-Medium.otf);
+    src: url(/RMC/fonts/LarkenDEMO-Medium.otf);
 }
 @font-face {
     font-family: Larken-Regular;
-    src: url(/RMCREFACTORING/fonts/LarkenDEMO-Regular.otf);
+    src: url(/RMC/fonts/LarkenDEMO-Regular.otf);
 }
 /*----------------------------------------------*/
 [class$="__container"] {
@@ -350,13 +350,13 @@ br{
 }
 @media (max-width:  430px) {
     .preview__background-text-container::before{
-        content: url(/RMCREFACTORING/images/preview/interiorsmall.png);
+        content: url(/RMC/images/preview/interiorsmall.png);
         position: absolute;
         right: -12px;
         top: -138px;
     }
     .preview__background{
-        content: url(/RMCREFACTORING/images/preview/backgroundsmall.png);
+        content: url(/RMC/images/preview/backgroundsmall.png);
         top: 480px;
         right: -12px;
     }
@@ -461,7 +461,7 @@ br{
         display: none;
     }
     .specializations__background-text-container::before{
-        content: url(/RMCREFACTORING/images/specializations/designsmall.png);
+        content: url(/RMC/images/specializations/designsmall.png);
         top: 101%;
         right: -12px;
         position: absolute;
@@ -690,20 +690,20 @@ br{
         padding: 0;
     }
     .about-us__img{
-        content: url(/RMCREFACTORING/images/about-us/img0small.png);
+        content: url(/RMC/images/about-us/img0small.png);
     }
     .about-us__imgblock{
         padding-bottom: 49px;
     }
     .about-us__imgblock-img1{
         display: block;
-        content: url(/RMCREFACTORING/images/about-us/img1small.png);
+        content: url(/RMC/images/about-us/img1small.png);
         position: relative;
         top: 49px;
     }
     .about-us__imgblock-img2{
         display: block;
-        content: url(/RMCREFACTORING/images/about-us/img2small.png);
+        content: url(/RMC/images/about-us/img2small.png);
         position: relative;
     }
 }
@@ -815,16 +815,16 @@ br{
 
 @media (max-width: 430px) {
     .latest-projects__grid .latest-projects__grid-row:first-child .latest-projects__grid-row-img{
-        content: url(/RMCREFACTORING/images/latest-projects/smallimg1.png);
+        content: url(/RMC/images/latest-projects/smallimg1.png);
     }
     .latest-projects__grid .latest-projects__grid-row:first-child .latest-projects__grid-row-img_displaced{
-        content: url(/RMCREFACTORING/images/latest-projects/smallimg2.png);
+        content: url(/RMC/images/latest-projects/smallimg2.png);
     }
     .latest-projects__grid .latest-projects__grid-row:last-child .latest-projects__grid-row-img{
-        content: url(/RMCREFACTORING/images/latest-projects/smallimg3.png);
+        content: url(/RMC/images/latest-projects/smallimg3.png);
     }
     .latest-projects__grid .latest-projects__grid-row:last-child .latest-projects__grid-row-img_displaced{
-        content: url(/RMCREFACTORING/images/latest-projects/smallimg4.png);
+        content: url(/RMC/images/latest-projects/smallimg4.png);
     }
     .lates-projects__menu-list-item:not(:last-child) {
         margin-right: 25px;
@@ -928,7 +928,7 @@ br{
     .dig-experience__background {
         height: 699px;
         width: calc(100% + 24px);
-        content: url(/RMCREFACTORING/images/dig-experience/smallbackground.png);
+        content: url(/RMC/images/dig-experience/smallbackground.png);
     }
     .dig-experience__container{
         flex-direction: column-reverse;
@@ -938,7 +938,7 @@ br{
         margin: 0 auto 20px auto;
     }
     .dig-experience__image{
-        content: url(/RMCREFACTORING/images/dig-experience/smallimg.svg);
+        content: url(/RMC/images/dig-experience/smallimg.svg);
     }
     .dig-experience__title{
         font-size: 36px;
