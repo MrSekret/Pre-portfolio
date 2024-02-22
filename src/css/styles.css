@@ -4,6 +4,11 @@ body {
   line-height: 1.15;
 }
 
+body p {
+  line-height: 1.7;
+  letter-spacing: 0.1px;
+}
+
 [class$=__container] {
   margin: 0 auto;
   max-width: 1024px;
@@ -27,7 +32,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 80px;
+  gap: 68px;
 }
 
 /*----------------------------------------*/
@@ -39,9 +44,6 @@ body {
   z-index: 100;
   -webkit-backdrop-filter: blur(2px);
           backdrop-filter: blur(2px);
-}
-
-.navbar__container {
   margin: 0 auto;
   max-width: 100%;
   width: 1024px;
@@ -55,7 +57,6 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-
 .navbar__logo {
   font-family: "Space Grotesk", "Made Gentle", "Arvo", "Avenir", "Helvetica Neue", "Nunito", "Segoe UI", Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -66,13 +67,11 @@ body {
 .navbar__logo:hover {
   color: #85c7fd;
 }
-
 .navbar__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-
 .navbar__list-item:nth-child(2) {
   padding: 0 12px;
 }
@@ -172,14 +171,14 @@ body {
 
 /*----------------------------------------*/
 .site__title {
-  margin-bottom: 1em;
+  margin-bottom: 1.9em;
 }
-.site__title span {
+.site__title a {
   color: #919191;
   font-weight: 400;
+  border-bottom: 1px solid #919191;
 }
 .site__head {
-  padding-top: 16px;
   margin-bottom: 64px;
 }
 .site__head-img {
@@ -337,7 +336,6 @@ body {
 .footer__designedby {
   margin-top: 24px;
   font-size: 0.6em;
-  line-height: 1.7;
   font-weight: 400;
   letter-spacing: 0.1;
 }

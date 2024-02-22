@@ -11,6 +11,10 @@ body {
 	background-color: #fffefb;
 	line-height: 1.15;
 }
+body p{
+	line-height: 1.7;
+	letter-spacing: 0.1px;
+}
 [class$="__container"] {
 	margin: 0 auto;
 	max-width: 1024px;
@@ -26,7 +30,7 @@ body {
 }
 .main {
 	@include flex-column;
-	gap: 80px;
+	gap: 68px;
 }
 
 /*----------------------------------------*/
@@ -38,43 +42,43 @@ body {
 	right: 0;
 	z-index: 100;
 	backdrop-filter: blur(2px);
-}
-.navbar__container {
 	margin: 0 auto;
 	max-width: 100%;
 	width: 1024px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-}
-.navbar__logo {
-	font-family: $font-family_1;
-	font-weight: 500;
-	cursor: pointer;
-	transition: color 0.4s;
-	&:hover {
-		color: $site2--color-2;
-	}
-}
-.navbar__list {
-	display: flex;
-}
-.navbar__list-item {
-	&:nth-child(2) {
-		padding: 0 12px;
-	}
-	&:nth-child(1) {
-		a {
-			background: radial-gradient(60% 50% at 50% 50%, #9acdf7 0%, rgba(78, 132, 212, 0) 100%);
-		}
-	}
-	a {
-		padding-bottom: 1px;
-		border-bottom: 1px solid #b7dbf8;
-		color: $color--main;
+
+	&__logo{
+		font-family: $font-family_1;
+		font-weight: 500;
+		cursor: pointer;
 		transition: color 0.4s;
+		
 		&:hover {
 			color: $site2--color-2;
+		}
+	}
+	&__list{
+		display: flex;
+	}
+	&__list-item{
+		&:nth-child(2) {
+			padding: 0 12px;
+		}
+		&:nth-child(1) {
+			a {
+				background: radial-gradient(60% 50% at 50% 50%, #9acdf7 0%, rgba(78, 132, 212, 0) 100%);
+			}
+		}
+		a {
+			padding-bottom: 1px;
+			border-bottom: 1px solid #b7dbf8;
+			color: $color--main;
+			transition: color 0.4s;
+			&:hover {
+				color: $site2--color-2;
+			}
 		}
 	}
 }
@@ -158,15 +162,15 @@ body {
 
 .site{
 	&__title{
-		margin-bottom: 1em;
+		margin-bottom: 1.9em;
 
-		span{
+		a{
 			color: #919191;
 			font-weight: 400;
+			border-bottom: 1px solid #919191;
 		}
 	}
 	&__head{
-		padding-top: 16px;
 		margin-bottom: 64px;
 
 		&-img{
@@ -290,7 +294,6 @@ body {
 .footer__designedby {
 	margin-top: 24px;
 	font-size: 0.6em;
-	line-height: 1.7;
 	font-weight: 400;
 	letter-spacing: 0.1;
 }
