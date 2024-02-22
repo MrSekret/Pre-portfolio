@@ -17,6 +17,7 @@ ol, ul, li{
 }
 a{
     text-decoration: none;
+    color: #202027;
 }
 p, h2{
     margin: 0;
@@ -872,7 +873,7 @@ linear-gradient(147.23deg, rgba(246, 252, 255, 0.1) 19.7%, rgba(124, 78, 255, 0.
     letter-spacing: 0.06em;
     padding-bottom: 20px;
 }
-.first-block__add_list {
+.first-block__add_list a{
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
