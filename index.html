@@ -16,12 +16,14 @@
 <body>
     <div class="wrapper">
         <nav class="navbar">
-            <a class="navbar__logo" href="./index.html">misha sed 🌀</a>
-            <ul class="navbar__list">
-                <li class="navbar__list-item"><a href="./index.html">work</a></li>
-                <li class="navbar__list-item">/</li>
-                <li class="navbar__list-item"><a href="./about.html">about</a></li>
-            </ul>
+            <div class="navbar__container">
+                <a class="navbar__logo" href="./index.html">misha sed 🌀</a>
+                <ul class="navbar__list">
+                    <li class="navbar__list-item"><a href="./index.html">work</a></li>
+                    <li class="navbar__list-item">/</li>
+                    <li class="navbar__list-item"><a href="./about.html">about</a></li>
+                </ul>
+            </div>
         </nav>
 
         <header class="header">
@@ -32,10 +34,13 @@
                 </div>
                 <div class="header__bg_blue"></div>
                 <div class="header__bg_light-blue"></div>
-                <div class="header__divider divider"><i class="header__icon icon-star"></i></div>
             </div>
         </header>
         
+        <div class="divider__container">
+            <div class="header__divider divider"><i class="header__icon icon-star"></i></div>
+        </div>
+
         <main class="main">
             <section class="site">
                 <div class="site__container">
@@ -47,14 +52,14 @@
                         <div class="site__description">
                             <h2 class="site__description-title">Landing site</h2>
                             <p class="site__description-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet exercitationem odio praesentium. Fugit, aspernatur ducimus..</p>
-                            <p class="site__description-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nam, minima provident, ut officiis eveniet quisquam nobis minus non laborum consectetur incidunt totam.</p>
+                            <p class="site__description-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nam, minima provident, ut officiis eveniet quisquam nobis minus non laborum incidunt totam.</p>
                             <div class="site__description-button button">
                                 <a target="_blank" href="./Sites/RMC/index.html">Visit Site</a>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-up-right arrow"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
                             </div>
                         </div>
                         <div class="site__card">
-                            <div class="site__card-head_orange"></div>
+                            <div class="site__card-head site__card-head_orange"></div>
                             <div class="site__card-body site__card-body_orange">
                                 <div>
                                     <h3 class="site__card-body-title">Role</h3>
