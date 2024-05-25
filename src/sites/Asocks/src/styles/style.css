@@ -912,6 +912,9 @@ linear-gradient(147.23deg, rgba(246, 252, 255, 0.1) 19.7%, rgba(124, 78, 255, 0.
     }
 }
 @media (max-width: 426px) {
+    .footer{
+        padding: 0 20px;
+    }
     .footer__second-block{
         flex-direction: column;
     }
